@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-nature-background_23-2148941599.jpg?w=996&t=st=1717914526~exp=1717915126~hmac=afcedcc21395a1e1d2fa957adcb6ee1a27765acfbd70f3fd3ea21697bd8c63e8');
+  background-size: cover; /* Make the background image cover the entire screen */
+  background-position: center;
+}
+
+.stopwatch {
+  text-align: center;
+  background-color:#c0e3c1; /* Sand color */
+  border-radius: 10px;
+}
+
+.display {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.laps {
+  list-style-type: none;
+  padding: 0;
+}
+
+.laps li {
+  margin-bottom: 5px;
+}
